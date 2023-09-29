@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ingreso de Vehículos</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../styles.css">
+</head>
+
+<body>
+    <div class="container mt-5">
+        <h2 class="text-center">Ingreso de Vehículos</h2><br>
+        
+        <form action="../Crud/procesar_ingreso_vehiculo.php" method="POST">
+            <div class="form-group">
+                <label for="placa">Placa Vehículo:</label>
+                <input type="text" name="placa" id="txt1" class="form-control" required="required"><br>
+            </div>
+            <div class="form-group">
+                <label for="modelo">Modelo:</label>
+                <input type="text" name="modelo" id="txt2" class="form-control" required="required"><br>
+            </div>
+            <div class="form-group">
+                <label for="ano">Año:</label>
+                <input type="text" name="ano" id="txt3" class="form-control" required="required"><br>
+            </div>
+            <div class="form-group">
+                <label for="tipo_carga">Carga:</label>
+                <input type="text" name="tipo_carga" id="txt3" class="form-control" required="required"><br>
+            </div>
+            <div class="form-group">
+                <label for="capacidad_carga">Capacidad de Carga:</label>
+                <input type="text" name="capacidad_carga" id="txt3" class="form-control" required="required"><br>
+            </div>
+            <div class="form-group">
+                <label for="nombre_peaje">Nombre del Peaje:</label>
+                <input type="text" name="nombre_peaje" id="txt3" class="form-control" required="required"><br>
+            </div>
+            <div class="form-group">
+                <label for="region">Region:</label>
+                <input type="text" name="region" id="txt3" class="form-control" required="required"><br>
+            </div>
+            <button type="submit" class="btn btn-primary">Registrar</button>
+        </form>
+    </div>
+</body>
+
+</html>
