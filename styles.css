@@ -1,0 +1,73 @@
+/* Estilos generales */
+
+body {
+    background-color: #f0e6d3;
+    /* Fondo ocre claro */
+}
+
+.container {
+    background-color: #fff;
+    /* Fondo blanco */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    /* Sombra ligera */
+    margin-top: 20px;
+}
+
+h2 {
+    color: #c94c24;
+    /* Texto naranja otoñal */
+}
+
+
+/* Estilos para los campos de entrada y etiquetas */
+
+.form-group label {
+    color: #c94c24;
+    /* Texto naranja otoñal */
+}
+
+.form-control {
+    border-color: #c94c24;
+    /* Borde naranja otoñal */
+}
+
+
+/* Estilos para botones */
+
+.btn-primary {
+    background-color: #c94c24;
+    /* Fondo naranja otoñal */
+    border-color: #c94c24;
+    /* Borde naranja otoñal */
+    color: #fff;
+    /* Texto blanco */
+}
+
+.btn-primary:hover {
+    background-color: #a63c1d;
+    /* Color naranja oscuro al pasar el mouse */
+    border-color: #a63c1d;
+    /* Borde naranja oscuro al pasar el mouse */
+}
+
+
+/* Estilos para select (rol) */
+
+select.form-control {
+    border-color: #c94c24;
+    /* Borde naranja otoñal */
+    color: #c94c24;
+    /* Texto naranja otoñal */
+}
+
+
+/* Estilos para mensajes de error (opcional) */
+
+.error-message {
+    color: #ff0000;
+    /* Texto rojo para mensajes de error */
+    font-size: 12px;
+    margin-top: 5px;
+}
